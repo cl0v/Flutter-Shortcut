@@ -2,9 +2,8 @@
 
 A Flutter project if you need to remember something!
 
-
-
-
+## Set up the entire project
+ > To setup the project, simple fetch it, go to the folder, name it flutter_demo, than run "flutter create ."
 
 
 
