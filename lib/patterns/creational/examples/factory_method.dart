@@ -10,30 +10,30 @@ enum PaymentType {
 }
 
 abstract class Payment {
-  factory Payment.debit() => DebitCardPayment();
+  factory Payment.debit() => _DebitCardPayment();
 
-  factory Payment.credit() => CreditCardPayment();
+  factory Payment.credit() => _CreditCardPayment();
 
-  factory Payment.cash() => CashPayment();
+  factory Payment.cash() => _CashPayment();
 
   void pay();
 }
 
-class CreditCardPayment implements Payment {
+class _CreditCardPayment implements Payment {
   @override
   void pay() {
     print('Paid with ${this.runtimeType}');
   }
 }
 
-class DebitCardPayment implements Payment {
+class _DebitCardPayment implements Payment {
   @override
   void pay() {
     print('Paid with ${this.runtimeType}');
   }
 }
 
-class CashPayment implements Payment {
+class _CashPayment implements Payment {
   @override
   void pay() {
     print('Paid with ${this.runtimeType}');
