@@ -22,14 +22,15 @@ environment:
 
 dependencies:
   cupertino_icons: ^1.0.2
+  dio: ^4.0.0
   english_words: ^4.0.0
-  flutter_markdown: 
-  github: 
-  intl: 
-  url_launcher: 
   fluro: ^2.0.3
   flutter:
     sdk: flutter
+  flutter_markdown: null
+  github: null
+  intl: null
+  url_launcher: null
 
 dev_dependencies:
   flutter_test:
